@@ -36,7 +36,9 @@ Hier ist ein Use Case Diagram für das Bestellsystem des Shops:
 
 #### Use Case: Checkout
 
-![useCase_checkout](/Users/tweak/CloudStation/IMI/03_Semester/Informatik-03/labs/Lab02_UseCaseClassDiagrams/use_cases/useCase_checkout.jpg)
+The checkout has several sub-steps allowing the user to choose his shipping and billing address. Due to the integration of several payment providers the user has the option to choose from several payment methods. Every entry from the user concerning the payment details is validated by the Payment provider which the shop owner can access through API. After choosing the payment method of the user’s liking, the user has a chance to confirm his order details. The confirmation is emphasized via an landing page.
+
+![checkout-htw-shop](/Users/tweak/CloudStation/IMI/03_Semester/Informatik-03/labs/Lab02_UseCaseClassDiagrams/use_cases/checkout-htw-shop.jpg)
 
 
 
